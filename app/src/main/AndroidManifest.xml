@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.targetupsc.education.android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity android:name=".Activity.MyStudyMaterialTestComplete"></activity>
+        <activity android:name=".Activity.MyStudyMaterialQuestionsActivity" />
+        <activity android:name=".Activity.UploadsActivity" />
+        <activity android:name=".Activity.CourseActivity" />
+        <activity android:name=".Activity.TestSerisCongratulationsActivity" />
+        <activity android:name=".Activity.TestSeriesGridListActivity" />
+        <activity android:name=".Activity.TestSeriesDetailsActivity" />
+        <activity android:name=".Activity.MCQQuestionActivity" />
+        <activity android:name=".Activity.MCQActivity" />
+        <activity android:name=".Activity.ShareAppActivity" />
+        <activity android:name=".Activity.NotificationActivity" />
+        <activity android:name=".Activity.AboutUsActivity" />
+        <activity android:name=".Activity.PaymentHistoryActivity" />
+        <activity android:name=".Activity.MyStudyMaterialActivity" />
+        <activity android:name=".Activity.ProfileActivity" />
+        <activity android:name=".Activity.SettingActivity" />
+        <activity android:name=".Activity.HomeActivity" />
+        <activity android:name=".Activity.NewPostActivity" />
+        <activity android:name=".Activity.CategoryDetailActivity" />
+        <activity android:name=".Activity.LoginActivity" />
+        <activity android:name=".Activity.OptionalActivity" />
+        <activity android:name=".Activity.UserTypeActivity" />
+        <activity
+            android:name=".Activity.SignUpActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".Activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

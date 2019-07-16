@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_gray_border_gray_shadow"
+    android:orientation="vertical"
+
+    android:layout_margin="@dimen/margin_6"
+    android:padding="@dimen/margin_10">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="English Grammer"
+        android:textColor="@color/colorTextTitle"
+        android:textSize="@dimen/fontsize_medium"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:text="12 Questions"
+        android:textColor="@color/colorTextColor"
+        android:textSize="@dimen/fontsize_normal" />
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="@dimen/margin_5"
+        android:background="@drawable/bg_gradient_pink_square" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+        android:textColor="@color/colorTextColor"
+        android:textSize="@dimen/fontsize_normal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_5"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ruppee"
+            android:textColor="@color/colorTextTitle"
+            android:textSize="@dimen/fontsize_large"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_5"
+            android:text="940"
+            android:textColor="@color/colorTextTitle"
+            android:textSize="@dimen/fontsize_large"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_start_now"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/margin_10"
+        android:layout_marginBottom="@dimen/margin_5"
+        android:background="@drawable/bg_gradient_pink"
+        android:text="@string/start_now"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontsize_normal"
+        android:textStyle="bold" />
+
+
+</LinearLayout>

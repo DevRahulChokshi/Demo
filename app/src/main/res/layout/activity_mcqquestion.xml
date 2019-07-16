@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activity.MCQQuestionActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="@dimen/margin_10">
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/Lnr_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="18dp"
+                        android:layout_height="18dp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:src="@drawable/back" />
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/margin_5"
+                        android:text="10-04-2019"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="@dimen/fontsize_medium"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="90dp"
+                    android:layout_height="2dp"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:background="@color/colorred" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:text="1 / 5"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/fontsize_medium"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/colorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_toLeftOf="@+id/txt_date"
+                android:text="Heading1"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/fontsize_medium"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_toLeftOf="@+id/img_bell"
+                android:text="Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the"
+                android:textColor="@color/colorTextColor"
+                android:textSize="@dimen/fontsize_normal" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@color/colorGray" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_toLeftOf="@+id/txt_date"
+                android:text="Q1. Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/fontsize_normal"
+                android:textStyle="bold" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/bg_rounded_gray_bordertransperent"
+                android:padding="@dimen/margin_5">
+
+                <TextView
+                    android:id="@+id/txt_sr_no_1"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="1"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:background="@color/colorGray"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/txt_sr_no_1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:text="Lorem ipsum is simply"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/bg_rounded_gray_bordertransperent"
+                android:padding="@dimen/margin_5">
+
+                <TextView
+                    android:id="@+id/txt_sr_no_2"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="2"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="25dp"
+                    android:background="@color/colorGray"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/txt_sr_no_2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_toLeftOf="@+id/txt_percent_2"
+                    android:text="Lorem ipsum is simply"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/bg_rounded_gray_bordertransperent"
+                android:padding="@dimen/margin_5">
+
+                <TextView
+                    android:id="@+id/txt_sr_no_3"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="3"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@color/colorGray"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/txt_sr_no_3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_toLeftOf="@+id/txt_percent_3"
+                    android:text="Lorem ipsum is simply"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:background="@drawable/bg_rounded_gray_bordertransperent"
+                android:padding="@dimen/margin_5">
+
+                <TextView
+                    android:id="@+id/txt_sr_no_4"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:gravity="center"
+                    android:text="4"
+                    android:layout_marginLeft="@dimen/margin_5"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+                <View
+                    android:layout_width="0.5dp"
+                    android:layout_height="25dp"
+                    android:background="@color/colorGray"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/margin_10"
+                    android:layout_toRightOf="@+id/txt_sr_no_4" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="@dimen/margin_10"
+                    android:layout_toLeftOf="@+id/txt_percent_4"
+                    android:text="Lorem ipsum is simply"
+                    android:textColor="@color/colorTextColor"
+                    android:textSize="@dimen/fontsize_normal" />
+
+
+            </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_toLeftOf="@+id/txt_date"
+                android:text="@string/explanation"
+                android:textColor="@color/colorTextTitle"
+                android:textSize="@dimen/fontsize_medium"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5"
+                android:layout_marginRight="@dimen/margin_5"
+                android:layout_toLeftOf="@+id/img_bell"
+                android:text="Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs. The passage is attributed to an unknown typesetter in the"
+                android:textColor="@color/colorTextColor"
+                android:textSize="@dimen/fontsize_normal" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    </ScrollView>
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="@dimen/margin_20"
+        android:background="@drawable/bg_gradient_pink"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/colorWhite"
+        android:textSize="@dimen/fontsize_large"
+        android:textStyle="bold" />
+</RelativeLayout>
